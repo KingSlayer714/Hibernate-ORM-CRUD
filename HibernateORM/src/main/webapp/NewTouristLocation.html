@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	<form action="AddLocation" method="post">
+		<table>
+			<tr>
+				<td>Location Name</td>
+				<td><input type="text" name="location"></td>
+			</tr>
+			<tr>
+				<td>City</td>
+				<td><input type="text" name="city"></td>
+			</tr>
+			<tr>
+				<td>Country</td>
+				<td><input type="text" name="country"></td>
+			</tr>
+			<tr>
+				<td>Description</td>
+				<td><input type="text" name="description"></td>
+			</tr>
+			<tr>
+				<td>Average Rating</td>
+				<td><input type="range" name="averagerating" min="0" max="10"
+					step="0.1"></td>
+			</tr>
+			<tr>
+				<td><input type="submit" value="Submit"></td>
+				<td></td>
+			</tr>
+		</table>
+	</form>
+	<br>
+	<a href="#" onclick="history.back(); return false;">Back</a>
+</body>
+</html>
